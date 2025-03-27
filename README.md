@@ -1,6 +1,6 @@
 # Money_Counter
 
-Money Counter is a side project to... well, count money manually, using Java Swing for the UI and vanilla Java for the logic part.
+Money Counter is a side project to... well, count money manually, using pure vanilla Java, this program can count it in real-time whenever user inputted the money.
 
 ## `Patch 1.0`
 
