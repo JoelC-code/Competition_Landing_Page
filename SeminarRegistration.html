@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Seminar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headerOfWeb">
+        <h1 id="title">Welcome To Bank Kotak Bussiness Competition!</h1>
+        <h2 id="smallTitle">National wide business competition</h2>
+        <img>
+    </div>
+    <div class="subMenu">
+        <a class="headerMenu" href=index.html>Main Menu</a>
+        <a class="headerMenu" href="CompetitionRegistration.html">Registration Competition</a>
+    </div>
+    <div class="mainContent">
+        <div class="Cards">
+            <h3 id="cardTitle">Registration Competition</h3>
+            <p id="textDescription">Choose the competition you want to participate:</p>
+            <div class="Select">
+                <input type="radio" name="CompetitionSelect" id="ArtsOfBusinessAndEntrepreneursSeminar"> Arts Of Business And Entrepreneurs Seminar <br>
+                <input type="radio" name="CompetitionSelect" id="BusinessandArtificialIntellgenceSeminar"> Business and Artificial Intellgence Seminar<br>
+            </div>
+            <div class="Select2">
+                <p id="textDescription2">Insert your name here:</p>
+                <input type="text" placeholder="Participant" id="competitionParticipant1" class="textfieldNamaPeserta"required><br>
+            </div>
+            <p id="textDescription">Insert your phone number (<b>team leader</b> phone number):</p>
+            <input type="text" placeholder="Phone Number" id="phoneNumber" class="textfieldNamaPeserta">
+            <div id="ButtonsForRegistration">
+                <button class="linksForRegistration" onclick="submitSeminar()">Submit</button>
+                <a class="linksForRegistration2" href="index.html">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div class="trademarks">
+        <p id="textDescription2">This website is powered by Empower server</p>
+        <p id="textDescription2">Empower: 2012 - 2025</p>
+    </div>
+    <script src="seminar.js"></script>
+</body>
+</html>

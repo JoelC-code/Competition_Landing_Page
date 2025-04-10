@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(229, 246, 255);
+}
+
+.headerOfWeb{
+    width: 100%;
+    padding: 50px 5px 34px 5px;
+    text-align: center;
+    background-color: rgb(58, 163, 88);
+    color: white;
+    #title{
+        font-size: 1.7em;
+    }
+    #smallTitle{
+        text-align: center;
+        font-size: 1em;
+        margin-top: 1em;
+        font-weight: 400;
+    }
+}
+
+.subMenu{
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    .headerMenu{
+        font-weight: 600;
+        padding: 1.6em;
+        margin: 0 -3px;
+        background-color: rgb(38, 38, 38);
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        text-align: center;
+        justify-content: center;
+        transition-duration: 0.3s;
+        transition-property: background-color;
+    }
+    .headerMenu:hover{
+        background-color: rgb(43, 118, 64);
+    }
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.Cards{
+    max-width: 40em;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(113, 113, 113, 0.525);
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    #cardTitle{
+        margin-bottom: 10px;
+        text-decoration: dashed;
+    }
+    #textDescription{
+        font-size: 1em;
+        
+    }
+}
+
+.Jadwal{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    th, td{
+        border: 1px solid rgb(157, 157, 157);
+        padding: 12px;
+        text-align: left;
+    }
+    th{
+        background-color: rgba(11, 11, 11, 0.205);
+    }
+    tr:nth-child(even) {
+        background-color: #0000000c;
+    }
+}
+
+.ruleList{
+    padding-left: 1.2em;
+    margin: 10px 0;
+}
+
+#ButtonsForRegistration{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.linksForRegistration{
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(58, 163, 88);
+    padding: 20px;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.linksForRegistration2{
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(163, 58, 58);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.trademarks{
+    background-color: rgb(210, 225, 234);
+    padding: 1em 0;
+    text-align: center;
+    #textDescription2{
+        font-size: 14px;
+    }
+}
+
+.Select{
+    margin: 5px 0 15px 0;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:550px) {
+    .subMenu{
+        flex-direction: column;
+    }
+    #ButtonsForRegistration{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:685px){
+    .Cards{
+        max-width: 30em;
+    }
+}
+
+.textfieldNamaPeserta{
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 2em;
+    margin-bottom: 10px;
+}
+
+.Select2{
+    margin: 5px 0 15px 0;
+}
+
+#textDescription2{
+    font-size: 0.8em;
+}
