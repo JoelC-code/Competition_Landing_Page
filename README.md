@@ -13,7 +13,7 @@ This website is one of my fruits before entering the 2nd semester, i learn some 
 - JS (Vanilla)
 
 ## Screenshot
-![Front page of the website](screenshotpage.jpg)
+![Front page of the website](screenshotpage.png)
 
 ## Live Demo
 [Click here]()
