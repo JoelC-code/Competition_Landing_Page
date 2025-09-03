@@ -16,4 +16,4 @@ This website is one of my fruits before entering the 2nd semester, i learn some 
 ![Front page of the website](screenshotpage.png)
 
 ## Live Demo
-[Click here]()
+[Click here](https://joelc-code.github.io/Competition_Landing_Page/)
